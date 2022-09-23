@@ -1,0 +1,68 @@
+homebrew_installed_packages:
+  - cowsay
+  - git
+  - go
+
+homebrew_cask_apps:
+  - 1password
+  - alfred
+  - android-sdk
+  - android-studio
+  - backblaze
+  - bitwarden
+  - clipy
+  - datagrip
+  - docker
+  - dropbox
+  - figma
+  - firefox
+  - firefox-developer-edition
+  - google-chrome
+  - google-cloud-sdk
+  - google-drive
+  - iterm2
+  - jetbrains-toolbox
+  - karabiner-elements
+  - kindle
+  - lens
+  - lulu
+  - licecap
+  - ngrok
+  - notion
+  - postman
+  - rectangle
+  - slack
+  - spotify
+  - stats
+  - stay
+  - sublime-text
+  - teamviewer
+  - telegram
+  - textmate
+  - thunderbird
+  - tuple
+  - tuxera-ntfs
+  - vanilla
+  - visual-studio-code
+  - vlc
+  - zoho-mail
+  - zoom
+
+mas_installed_apps:
+  - { id: 443987910, name: "1Password" }
+  - { id: 1444383602, name: "Good Notes" }
+  - { id: 526298438, name: "Light Screenshot" }
+  - { id: 1410709951, name: "Smart Countdown Timer" }
+  - { id: 497799835, name: "Xcode" }
+
+pip_packages:
+  - name: mkdocs
+
+configure_dock: true
+dockitems_remove:
+  - Launchpad
+  - TV
+dockitems_persist:
+  - name: "Sublime Text"
+    path: "/Applications/Sublime Text.app/"
+    pos: 5
